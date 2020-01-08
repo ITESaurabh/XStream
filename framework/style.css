@@ -1,55 +1,55 @@
 body {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-  }
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
 
-  .btn {
-      border-radius: 28px;
-  }
+.btn {
+    border-radius: 28px;
+}
 
-  .space {
-      
-      margin-right: 10px;
-  }
+.space {
+    
+    margin-right: 10px;
+}
 
-  
+
 .foot {
-    border-radius: 0px 0px 0px 0px;
-    background-color #ffffff;
-    border-radius-color: #282828;
-    color: black;
-    border-color: white;
-    padding: 1px;
-  }
-  
-  .tagline {
-      text-align: center;
-      font-family: 'Open Sans', sans-serif;
-      padding: 10px;
-  }
-  
-  .footin {
-    background-color: white;
-    padding: 1px;
-  }
+  border-radius: 0px 0px 0px 0px;
+  background-color #ffffff;
+  border-radius-color: #282828;
+  color: black;
+  border-color: white;
+  padding: 1px;
+}
 
-
-  .card-body {
-   
-    padding: 0px;
-
-  }
-
-  .event_h {
-
+.tagline {
     text-align: center;
-    font-family: Roboto;
-    font-style: italic;
-    font-weight: 500;
-    padding: 15px;
-    margin: 0px 0px 20px 0px;
-    border-radius: 50px;
-  }
-   
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+}
+
+.footin {
+  background-color: white;
+  padding: 1px;
+}
+
+
+.card-body {
+ 
+  padding: 0px;
+
+}
+
+.event_h {
+
+  text-align: center;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 500;
+  padding: 15px;
+  margin: 0px 0px 20px 0px;
+  border-radius: 50px;
+}
+ 
