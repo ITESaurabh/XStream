@@ -11,7 +11,7 @@ class main extends CI_Controller {
         $this->load->view('navbar/nav');
         $this->load->view('navbar/nav1a');
         $this->load->view('navbar/nav2');
-        $this->load->view('navbar/nav3a');
+        $this->load->view('navbar/nav3');
         $this->load->view('main');
         $this->load->view('footer');
         }
