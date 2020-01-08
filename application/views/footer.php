@@ -12,6 +12,7 @@
     
       <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="<?php echo base_url('framework/script.js'); ?>"></script>
     <script src="<?php echo base_url('framework/jquery-3.4.1.slim.min.js'); ?>"></script>
     <script src="<?php echo base_url('framework/popper.min.js'); ?>"></script>
     <script src="<?php echo base_url('framework/bootstrap-4.4.1/js/bootstrap.min.js'); ?>"></script>
