@@ -52,7 +52,7 @@
     <h3 class="card-title">Rishika Jain</h3>
         <p class="card-title"><b>Back-End Developer</b></p>
        
-        <p class="card-text">Email:</p>
+        <p class="card-text">Email: </p>
      
     </div>
   </div>
