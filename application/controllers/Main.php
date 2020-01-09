@@ -5,6 +5,30 @@ class Main extends CI_Controller {
 
 	public function index()
 	{
+
+                $query=$this->db->query("SELECT * from image where id = (select max(id) from image)");
+                          
+                foreach ($query->result_array() as $row)
+                {
+                        $count=$row['id'];
+                
+                    }
+                for($i=1; $i<=10; $i=$i+1){
+                   $query = $this->db->query("SELECT * FROM image where id=$count");
+                       $count=$count-1;
+                                        
+                    foreach ($query->result_array() as $row)
+                    {
+                             $row['file_name'];
+                             $_SESSION["img_".$i] = $row['file_name'];
+                             $_SESSION["dis_".$i] = $row['dis'];
+                    }         
+                                 
+                 }                 
+   
+            
+
+
         $this->load->view('header/head');
         $this->load->view('header/head2');
        // $this->load->view('nav_theme');
@@ -22,7 +46,6 @@ class Main extends CI_Controller {
         
                 $this->load->view('header/head');
                 $this->load->view('header/head2');
-               // $this->load->view('nav_theme');
                 $this->load->view('navbar/nav');
                 $this->load->view('navbar/nav1');
                 $this->load->view('navbar/nav2a');
