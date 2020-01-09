@@ -20,7 +20,15 @@ class Main extends CI_Controller {
 
         function devs() {
         
-    
+                $this->load->view('header/head');
+                $this->load->view('header/head2');
+               // $this->load->view('nav_theme');
+                $this->load->view('navbar/nav');
+                $this->load->view('navbar/nav1');
+                $this->load->view('navbar/nav2a');
+                $this->load->view('navbar/nav3');
+                $this->load->view('devs');
+                $this->load->view('footer');
 
 
         }
