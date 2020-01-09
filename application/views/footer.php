@@ -1,7 +1,7 @@
 
   <footer>
     <div class="foot bg-light"> 
-       <div class="footin"> 
+       <div class="bg-light"> 
          <div class="tagline"> Made with ❤ in India.</div>
       <div id="version" style="text-align: left; color: grey; font-size: 8pt;"></div>
       <div style="text-align: right; color: #222222; font-size: 7.5pt;">Powered by ITESaurabh</div>

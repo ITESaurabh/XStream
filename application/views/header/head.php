@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS --> 
+    <?php if($this->session->userdata('theme') != '') { ?>
     <link rel="stylesheet" href="<?php echo base_url('framework/bootstrap-4.4.1/css/bootstrap.min.css'); ?>">
+    <?php } else{ ?>
+    <link rel="stylesheet" href="<?php echo base_url('framework/bootswatch/bootstrap.min.css'); ?>">
+    <?php }?>
     <link rel="stylesheet" href="<?php echo base_url('framework/style.css'); ?>">
 
     <style>

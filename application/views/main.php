@@ -13,16 +13,31 @@
     <div Class="col-sm-8">
 
     <!--Post Template-->
+    <?php for($i=1;$i<=10;$i=$i+1){ ?>
     <div class="card border-0 shadow mb-4">
         <div class="card-body">
-         <div class=""><img src=""/> </div>
-          <div style="height: 150px"></div>
-  
+        <table><tr>
+          <td >
+         <div class=""><img src="<?php echo base_url('uploads/').$_SESSION["img_".$i]?>" width="150px" height="150px"/> </div>
+          </td>
+          <td >
+            <div  class="" >
+              
+              <p align="justified">   <?php echo $_SESSION["dis_".$i]?>
+              </p>
+            </div>
+          </td>
+          <td>
+          <a type="button" class="btn space btn-success" aria-haspopup="true" aria-expanded="flase" href="">submmit</a>
+          </td>
+
+          </tr></table>
         </div>
 
         
       </div>
 
+    <?php } ?>
       
       <!-- Loop Here-->
 

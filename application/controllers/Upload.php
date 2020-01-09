@@ -4,7 +4,7 @@
     
     public function index(){
 
-    $this->load->view('custom_view', array('error' => ' ' ));
+    $this->load->view('up_view', array('error' => ' ' ));
 
 }
 
