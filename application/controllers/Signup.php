@@ -5,12 +5,14 @@ class Signup extends CI_Controller {
 
 	public function index()
 	{
-        $this->load->view('header');
-        $this->load->view('navc');
-      // $this->load->view('nav');
-       $this->load->view('signup');
-      // $this->load->view('aside2');
-        $this->load->view('footer');
+    $this->load->view('header/head');
+    $this->load->view('header/head2');
+    $this->load->view('navbar/nav');
+    $this->load->view('navbar/nav1');
+    $this->load->view('navbar/nav2');
+    $this->load->view('navbar/nav3');
+    $this->load->view('signup');
+    $this->load->view('footer');
 
         
   }
@@ -29,10 +31,10 @@ class Signup extends CI_Controller {
 
   function form_validation(){
     
-      if($_POST['password']==$_POST['repassword'])
+      if($_POST['password']==$_POST['re_password'])
       {    
 
-        $userid = $_POST['user'];
+        $userid = $_POST['email'];
         $this->load->model('signup_model');
            
 
@@ -42,22 +44,22 @@ class Signup extends CI_Controller {
                   
                      $this->load->model('signup_model');
                      $data=array(
-                        "usr"=>$this->input->post("user"),
+                        "usr"=>$this->input->post("email"),
                          "pass"=>$this->input->post("password"),
                              "name"=>$this->input->post("name"),
-                               "phone"=>$this->input->post("contact")
+                             //  "phone"=>$this->input->post("contact")
                               );
                             $this->signup_model->insert_data($data);
                         redirect(base_url()."index.php/Login");
                 }
                 else{
  
-                  redirect(base_url()."index.php/Signup/already_e");                     
+               //   redirect(base_url()."index.php/Signup/already_e");                     
                     }
       }
      else{
          
-         redirect(base_url()."index.php/Signup/index1");
+        // redirect(base_url()."index.php/Signup/index1");
         
         }
       
