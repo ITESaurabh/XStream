@@ -34,7 +34,7 @@
             </div>
           </td>
           <td>
-          <a type="button" class="btn space btn-success" aria-haspopup="true" aria-expanded="flase" href="">submmit</a>
+          <a type="button" class="btn space btn-success" aria-haspopup="true" aria-expanded="flase" href="">Reserve Seat</a>
           </td>
 
           </tr></table>
