@@ -18,7 +18,7 @@
 
 
   <li class="nav-item">
-            <a type="button" class="btn space btn-info" aria-haspopup="true" aria-expanded="flase" href="#"> Welcome <?php echo $this->session->userdata('user'); ?></a>
+            <a type="button" class="btn space btn-info" aria-haspopup="true" aria-expanded="flase" href="#"> Welcome <img class="space" src="<?php echo base_url('framework/fontawesome-5.12.0/svgs/solid/user-solid.svg'); ?>" alt="" height="20" /><?php echo $this->session->userdata('user'); ?></a>
           </li>
           <li class="nav-item">
             <a type="button" class="btn space btn-danger" aria-haspopup="true" aria-expanded="flase" href="<?php echo base_url('index.php/Login/logout'); ?>">Log Out</a>

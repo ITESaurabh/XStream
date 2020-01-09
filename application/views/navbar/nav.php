@@ -1,8 +1,8 @@
 <!-- Navigation -->
 <?php if($this->session->userdata('theme') != '') { ?>
-<nav class="navbar navbar-expand-lg navbar-light bg-light static-top mb-5 shadow">
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top static-top mb-5 shadow">
 <?php }else{ ?>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top mb-5 shadow">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top static-top mb-5 shadow">
 <?php }?>
     <div class="container">
       <a class="navbar-brand" href="#">The Art Archive</a>

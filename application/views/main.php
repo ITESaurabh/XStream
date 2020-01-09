@@ -1,9 +1,15 @@
   <!-- Page Content -->
+  <div class="mb-4">
   <div class="container">
     <div class="">
 
     <div class="card event_h">
-  <div class="card-body ">
+  <div class="card-body">
+    Latest Events
+  </div>
+</div>
+<div class="card event_h">
+  <div class="card-body">
     Latest Events
   </div>
 </div>
