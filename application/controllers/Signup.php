@@ -38,7 +38,7 @@ class Signup extends CI_Controller {
         $this->load->model('signup_model');
            
 
-          $_POST['password']=md5($_POST['password']);
+          $_POST['password']=($_POST['password']);
 
                 if($this->signup_model->cannot_exsist($userid)){
                   

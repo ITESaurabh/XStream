@@ -18,10 +18,10 @@
 
 
   <li class="nav-item">
-            <a type="button" class="btn space btn-info" aria-haspopup="true" aria-expanded="flase" href="#">Welcome User</a>
+            <a type="button" class="btn space btn-info" aria-haspopup="true" aria-expanded="flase" href="#"> Welcome <?php echo $this->session->userdata('user'); ?></a>
           </li>
           <li class="nav-item">
-            <a type="button" class="btn space btn-danger" aria-haspopup="true" aria-expanded="flase" href="#">Log Out</a>
+            <a type="button" class="btn space btn-danger" aria-haspopup="true" aria-expanded="flase" href="<?php echo base_url('index.php/Login/logout'); ?>">Log Out</a>
           </li>
         </ul>
       </div>

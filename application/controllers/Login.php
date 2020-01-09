@@ -5,8 +5,8 @@ class Login extends CI_Controller {
 
 	public function index()
 	{
-                $this->load->view('header/head');
-                $this->load->view('header/head2');
+                $this->load->view('header/head-LOG');
+                //$this->load->view('header/head2');
                 $this->load->view('navbar/nav');
                 $this->load->view('navbar/nav1');
                 $this->load->view('navbar/nav2a');
@@ -19,7 +19,7 @@ class Login extends CI_Controller {
        public function verify()
         {      
                 $username = $_POST['username'];
-                 $password = md5($_POST['password']);
+                 $password =($_POST['password']);
 
                  $this->load->model('Login_model');
                  /// check for condition valid or not 
