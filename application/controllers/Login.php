@@ -21,9 +21,9 @@ class Login extends CI_Controller {
                 $username = $_POST['username'];
                  $password = md5($_POST['password']);
 
-                 $this->load->model('login_model');
+                 $this->load->model('Login_model');
                  /// check for condition valid or not 
-                if($this->login_model->can_login($username, $password)){
+                if($this->Login_model->can_login($username, $password)){
                          ///creating session
                         $session_data=array('user' => $username);
                          $this->load->library('session');
@@ -65,10 +65,15 @@ class Login extends CI_Controller {
         public function success()
         {
 
-                $this->load->view('header');
-                $this->load->view('navc');
-                $this->load->view('success');
-                 $this->load->view('footer'); 
+                $this->load->view('header/head');
+        $this->load->view('header/head2');
+       // $this->load->view('nav_theme');
+        $this->load->view('navbar/nav');
+        $this->load->view('navbar/nav1a');
+        $this->load->view('navbar/nav2');
+        $this->load->view('navbar/nav3');
+        $this->load->view('main');
+        $this->load->view('footer');
 
         }
 
