@@ -34,7 +34,7 @@
             </div>
           </td>
           <td>
-          <a type="button" class="btn space btn-success" aria-haspopup="true" aria-expanded="flase" href="">Reserve Seat</a>
+          <a type="button" class="btn space btn-success" aria-haspopup="true" aria-expanded="flase" href="<?php echo base_url('uploads_video/').$_SESSION["vid_".$i]?>">Play</a>
           </td>
 
           </tr></table>

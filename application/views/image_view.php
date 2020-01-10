@@ -3,14 +3,9 @@
         <title>Success Message</title>
     </head>
     <body>
-    <h3>Congragulation You Have Successfuly Uploaded</h3>
+    <h3>Successfuly Uploaded</h3>
     <!-- Uploaded file specification will show up here -->
-    <ul>
-        <?php foreach ($_SESSION as $item => $value):?>
-        <li><?php echo $item;?>: <?php echo $value;?></li>
-        <?php endforeach; ?>
-    </ul>
-
+   
 
 
 
@@ -25,7 +20,12 @@
              <img src="<?php echo base_url('uploads/').$_SESSION["img_".$i]?>" height="100%" width="100%" >
            </td><td  width="40%">  
             <?php echo $_SESSION["dis_".$i]?>
-            </td></tr>
-         
+            </td><td>
+            <video controls autoplay loop>
+   <source src="<?php echo base_url('uploads_video/').$_SESSION["vid_".$i]?>" type="video/mp4">
+   not support
+</video>
+
+           <td> </tr>
         <?php } ?>
      </table>  

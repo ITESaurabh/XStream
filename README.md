@@ -1,9 +1,8 @@
-# The-Art-Archive
+# XStream Media Sreamer
 
-A Content manegement system based on Codeignitor by Team Hackathon.
+A media Streaming Service based on Codeignitor by Team Hackathon.
 
 Team :
-
 
 
 Saurabh Tanwar (Full Stack Developer)
