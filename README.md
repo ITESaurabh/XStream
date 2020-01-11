@@ -1,4 +1,4 @@
-# XStream Media Sreamer
+# XStream Media Streamer
 
 A media Streaming Service based on Codeignitor by Team Hackathon.
 
