@@ -25,6 +25,30 @@ class Theme extends CI_Controller {
                        redirect (base_url('index.php/main') ); 
 
     }
-	
+    
+    
+
+    public function r()
+    {
+
+
+        $this->load->library('session');
+        $this->session->unset_userdata('r');
+        redirect (base_url('index.php/main') );
+                 
+
+    }
+
+    public function nr()
+    {
+        
+        $r="light";
+        $r_data=array('r'=>$r);
+        $this->load->library('session');
+
+                       $this->session->set_userdata($r_data);
+                       redirect (base_url('index.php/main') ); 
+
+    }
 	
 }

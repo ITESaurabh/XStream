@@ -36,7 +36,7 @@
     <h3 class="card-title">Ravi Vishwakarma</h3>
         <p class="card-title"><b>Database Developer</b></p>
        
-        <p class="card-text">Email:</p>
+        <p class="card-text">vravi280698@gmail.com</p>
      
     </div>
   </div>
@@ -62,7 +62,7 @@
     <h3 class="card-title">Rishika Jain</h3>
         <p class="card-title"><b>Back-End Developer</b></p>
        
-        <p class="card-text">Email: </p>
+        <p class="card-text">rishikajain290@gmail.com</p>
      
     </div>
   </div>

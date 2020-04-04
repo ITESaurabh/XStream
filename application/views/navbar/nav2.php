@@ -11,4 +11,15 @@
           <a class="dropdown-item" href="<?php echo base_url("index.php/Theme/dark"); ?>">Dark</a>
         
         </div>
+
+        <li class="nav-item dropdown space">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Recommendations
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="<?php echo base_url("index.php/Theme/r"); ?>">Turn On Recommendations</a>
+          <a class="dropdown-item" href="<?php echo base_url("index.php/Theme/nr"); ?>">Turn Off Recommendations</a>
+        
+        </div>
+
       </li>

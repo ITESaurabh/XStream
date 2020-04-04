@@ -94,7 +94,7 @@
       'upload_path' => "./uploads_video",
       'allowed_types' => "mkv|mp4|avi|wmv|flv",
       'overwrite' => TRUE,
-       'max_size' => "200048", // Can be set to particular file size , here it is 2 MB(2048 Kb)
+       'max_size' => "20004800", // Can be set to particular file size , here it is 2 MB(2048 Kb)
        );
 
      $this->load->library('upload', $config);

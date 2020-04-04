@@ -5,8 +5,8 @@ class Signup extends CI_Controller {
 
 	public function index()
 	{
-    $this->load->view('header/head');
-    $this->load->view('header/head2');
+    $this->load->view('header/head-SIG');
+    //$this->load->view('header/head2');
     $this->load->view('navbar/nav');
     $this->load->view('navbar/nav1');
     $this->load->view('navbar/nav2');

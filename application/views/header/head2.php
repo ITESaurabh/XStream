@@ -1,2 +1,2 @@
-<title>Welcome to The Art Archive</title>
+<title>XStream</title>
 </head>
